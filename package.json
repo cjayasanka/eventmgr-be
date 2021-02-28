@@ -1,0 +1,19 @@
+{
+  "name": "eventmgr-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": "https://github.com/cjayasanka/eventmgr-be.git",
+  "author": "cjayasanka <cjayasanka93@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.18",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
